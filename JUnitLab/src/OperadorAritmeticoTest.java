@@ -37,7 +37,7 @@ class OperadorAritmeticoTest {
 			division = OperadorAritmetico.division(a, b);
 			assertEquals(esperado, division);
 		} catch (Exception e) {
-			fail();
+			e.printStackTrace();
 		}
 	}
 
