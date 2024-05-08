@@ -34,6 +34,7 @@ public class Lista {
 	}
 
 	public void gettAll() {
+		System.out.println("Lista de la compra:");
 		Set<Map.Entry<String, ArrayList<Producto>>> cate = listaCompra.entrySet();
 		for (Map.Entry<String, ArrayList<Producto>> kv : cate) {
 			System.out.println(kv.toString());
