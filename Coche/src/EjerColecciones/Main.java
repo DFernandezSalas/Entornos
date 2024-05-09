@@ -13,7 +13,7 @@ public class Main {
 		l1.addProduct("Carne", p2);
 		l1.addProduct("Verdura", p3);
 		l1.addProduct("Carne", p4);
-		l1.getByCategory("Carne");
+		l1.getByCategory("Carn");
 		l1.gettAll();
 
 	}
