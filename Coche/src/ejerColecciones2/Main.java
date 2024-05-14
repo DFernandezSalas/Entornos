@@ -11,7 +11,11 @@ public class Main {
 		f1.agregarNota("Paco", "Trueno", "ritmo", 7);
 		f1.agregarNota("Pepe", "Trueno", "rimas", 7);
 		f1.agregarNota("Pepe", "Trueno", "ritmo", 7);
-		System.out.println(f1);
+//		System.out.println(f1);
+		f1.notasCantante("Trueno");
+		f1.notasJuez("Pepe");
+		f1.obtenerMediaCantante("Trueno");
+		f1.artistaMetrica("ritmo");
 	}
 
 }
